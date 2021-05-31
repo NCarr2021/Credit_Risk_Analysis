@@ -63,5 +63,5 @@ The balanced accuracy score similar to Undersampling, SMOTE and Random Sampling 
 
 ## Summary
 
-Most of the models are preferred since the precision score for high-risk at 0.01. Models AdaBoost, Undersampling, SMOTE had the same accuracy score at 64%, Random slightly higher at 65% and OverSampling the lowest at 51%. It's possible to use the  Ensemble/Random Forest which was highest at 79% with recall/sensitivity at 71% for high-risk and 88% for low-risk. Precision for high-risk was 3% vs low-risk at 100%. Overall the models have low precision. 
+Most of the models are not preferred since the precision score for high-risk at 0.01. Models AdaBoost, Undersampling, SMOTE had the same accuracy score at 64%, Random slightly higher at 65% and OverSampling the lowest at 51%. It's possible to use the  Ensemble/Random Forest which was highest at 79% with recall/sensitivity at 71% for high-risk and 88% for low-risk. Precision for high-risk was 3% vs low-risk at 100%. Overall the models have low precision. 
 
