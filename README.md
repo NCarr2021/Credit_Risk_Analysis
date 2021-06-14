@@ -18,11 +18,11 @@ The balanced accuracy score is 65%.  The imbalanced classification report shows 
 
 ### COMBO - Over and Under Sampling
 
-The balanced accuracy score is 52% (rounded).  The imbalanced classification report shows high-risk precision at 1% with recall (sensitivity) with f1 at 2%. Similar to Random Sampling. The low-risk class number is high giving it a 100% precision and recall of 58%.
+The balanced accuracy score is 64% (rounded).  The imbalanced classification report shows high-risk precision at 1% with recall (sensitivity) with f1 at 2%. Similar to Random Sampling. The low-risk class number is high giving it a 100% precision and recall of 545%.
 
-![ComboBalancedAccuracy](Resources/ComboBalancedAccuracy.png)
+![Redo-ComboAccuracy](Resources/Redo-ComboAccuracy.png)
 
-![ComboImbalancedClass](Resources/ComboImbalancedClass.png)
+![Redo-ComboClassif](Resources/Redo-ComboClassif.png)
 
 
 ### Ensemble/Random Forest
@@ -45,11 +45,11 @@ Similar to Random Sampling, the balanced accuracy score is 64%.  The imbalanced 
 
 ### Undersampling
 
-The balanced accuracy score is also 64%. The imbalanced classification report shows high-risk precision at 1% with recall (sensitivity) with f1 at 1%. The low-risk class number is high giving it a 100% precision and recall of 63%.
+The balanced accuracy score is 52%. The imbalanced classification report shows high-risk precision at 1% with recall (sensitivity) with f1 at 1%. The low-risk class number is high giving it a 100% precision and recall of 46%.
 
-![UndersampleBalancedAccuracy](Resources/UndersampleBalancedAccuracy.png)
+![Redo-UndersamplingAccuracy](Resources/Redo-UndersamplingAccuracy.png)
 
-![UndersampleImbalancedClass](Resources/UndersampleImbalancedClass.png)
+![Redo-UndersampImbalance](Resources/Redo-UndersampImbalance.png)
 
 
 ### AdaBoost
